@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Code](https://github.com/sabrereyn/Frontend-Mentor-Coming-Soon)
+- Live Site URL: [Live](https://sabrereyn.github.io/Frontend-Mentor-Coming-Soon/)
 
 ## My process
 
