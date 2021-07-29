@@ -128,6 +128,7 @@ h1 span {
 
 .error-msg {
   font-size: 12px;
+  font-style: italic;
   font-weight: 500;
   color: hsl(354, 100%, 66%);
   margin: 1% 0 6% 5%;
