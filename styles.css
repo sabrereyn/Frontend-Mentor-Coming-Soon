@@ -1,0 +1,183 @@
+:root {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 5% auto 0;
+  width: 40%;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 15px;
+}
+
+/* ~~~ Header ~~~ */
+h1 {
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 20px;
+}
+
+h1 span {
+  font-weight: 700;
+  color: initial;
+}
+
+.subscribe {
+  margin: 0 0 5%;
+  font-size: 16px;
+}
+
+/* ~~~ Input group ~~~ */
+
+.input-grp {
+  margin-bottom: 80px;
+  width: 100%;
+  display: flex;
+}
+
+.input-div {
+  text-align: left;
+  width: 65%;
+  position: relative;
+}
+
+.input-general {
+  outline: none;
+  font-family: inherit;
+  border-radius: 21px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.email {
+  border: 1px solid hsl(223, 100%, 88%);
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.input-btn {
+  border: none;
+  width: 30%;
+  margin-left: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: hsl(223, 87%, 63%);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 2px 5px 7px hsla(209, 33%, 12%, 0.2);
+  cursor: pointer;
+}
+
+/* ~~~ Dashboard ~~~ */
+
+.illustration {
+  width: 100%;
+  display: block;
+  margin-bottom: 100px;
+}
+
+/* ~~~ Footer ~~~ */
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-icons {
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 50%;
+  margin-right: 10px;
+  outline: none;
+  background-color: #fff;
+  color: hsl(223, 87%, 63%);
+  padding: 7px;
+  font-size: 16px;
+}
+
+.btn-icons:hover {
+  background-color: hsl(223, 87%, 63%);
+  cursor: pointer;
+  color: #fff;
+}
+
+.footer p {
+  font-size: 12px;
+  color: hsl(0, 0%, 59%);
+}
+
+/* ~~~ Attribution ~~~ */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ~~~ Error ~~~ */
+.error {
+  border: 1px solid hsl(354, 100%, 66%);
+}
+
+.error-msg {
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(354, 100%, 66%);
+  margin: 1% 0 6% 5%;
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+/* ~~~ Media ~~~ */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    width: 90%;
+    margin-top: 20%;
+  }
+
+  .input-grp {
+    display: block;
+  }
+
+  .input-div {
+    width: 100%;
+  }
+
+  .email {
+    width: 100%;
+    /* margin-bottom: 5%; */
+  }
+
+  .input-btn {
+    width: 100%;
+    margin: 0;
+  }
+
+  .error-msg {
+    position: initial;
+  }
+}
